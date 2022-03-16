@@ -3,6 +3,7 @@ import json
 from django.contrib.auth.models import User
 from students.models import Course, Student
 from django.urls import reverse
+from model_bakery import baker
 from rest_framework.status import HTTP_200_OK, HTTP_400_BAD_REQUEST, HTTP_201_CREATED
 
 
